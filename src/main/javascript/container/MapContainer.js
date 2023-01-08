@@ -50,12 +50,14 @@ function MapContainer() {
       <NaverMap
         latLng={{ angle: 37.55279211074744, meter: 126.91719906074228 }}
       />
+      <div></div>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
+          justifyContent: "center",
           gap: "20px",
-          padding: "0px 30px",
+          width: "100%",
         }}
       >
         <div
@@ -63,7 +65,6 @@ function MapContainer() {
             display: "flex",
             flexDirection: "column",
             gap: "5px",
-            padding: "0px 30px",
           }}
         >
           <div style={{ fontWeight: "bold" }}>지하철</div>
@@ -75,7 +76,6 @@ function MapContainer() {
             display: "flex",
             flexDirection: "column",
             gap: "5px",
-            padding: "0px 30px",
           }}
         >
           <div style={{ fontWeight: "bold" }}>
@@ -98,7 +98,6 @@ function MapContainer() {
             display: "flex",
             flexDirection: "column",
             gap: "5px",
-            padding: "0px 30px",
           }}
         >
           <div
