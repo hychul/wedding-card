@@ -7,7 +7,7 @@ function MainContainer() {
         backgroundColor: "pink",
         width: "100%",
         height: "500px",
-        padding: "20px",
+        padding: "50px 20px",
         justifyContent: "space-between",
       }}
     >

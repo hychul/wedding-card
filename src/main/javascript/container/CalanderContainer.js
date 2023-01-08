@@ -4,9 +4,10 @@ function CalanderContainer() {
       style={{
         backgroundColor: "grey",
         height: "500px",
+        padding: "50px 20px",
       }}
     >
-      Contact
+      Calander
     </div>
   );
 }

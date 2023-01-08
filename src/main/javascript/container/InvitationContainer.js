@@ -7,8 +7,7 @@ function InvitationContainer() {
         gap: "30px",
         backgroundColor: "white",
         width: "100%",
-        padding: "20px",
-        justifyContent: "space-between",
+        padding: "50px 20px",
       }}
     >
       <div
