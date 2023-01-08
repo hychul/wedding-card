@@ -4,6 +4,7 @@ import ContactContainer from "main/javascript/container/ContactContainer";
 import CalanderContainer from "main/javascript/container/CalanderContainer";
 import AlbumContainer from "main/javascript/container/AlbumContainer";
 import MapContainer from "main/javascript/container/MapContainer";
+import AccountContainer from "main/javascript/container/AccountContainer";
 import useScrollFadeIn from "../hook/useScrollFadeIn";
 
 function WeddingCardPage() {
@@ -33,6 +34,9 @@ function WeddingCardPage() {
       </div>
       <div {...useScrollFadeIn()}>
         <MapContainer />
+      </div>
+      <div {...useScrollFadeIn()}>
+        <AccountContainer />
       </div>
     </div>
   );
