@@ -46,7 +46,9 @@ function MapContainer() {
           <div>02-335-5400</div>
         </div>
       </div>
-      <NaverMap />
+      <NaverMap
+        latLng={{ angle: 37.55279211074744, meter: 126.91719906074228 }}
+      />
       <div
         style={{
           display: "flex",

@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 const { naver } = window;
 
-function NaverMap() {
+function NaverMap({ latLng }) {
   useEffect(() => {
-    const container = document.getElementById("map"); // 지도를 표시할 div
+    const container = document.getElementById("map");
 
-    const position = new naver.maps.LatLng(37.3849483, 127.1229117);
+    const position = new naver.maps.LatLng(latLng.angle, latLng.meter);
     const mapOptions = {
       center: position,
       zoom: 17,
