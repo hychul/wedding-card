@@ -17,6 +17,7 @@ function WeddingCardPage() {
         flexDirection: "column",
         justifyContent: "center",
         alignContent: "center",
+        fontSize: "14px",
       }}
     >
       <MainContainer />

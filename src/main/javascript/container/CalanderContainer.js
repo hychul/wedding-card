@@ -35,6 +35,7 @@ function CalanderContainer() {
         style={{
           width: "100%",
           textAlign: "center",
+          fontSize: "1.1rem",
         }}
       >
         3월
@@ -43,12 +44,13 @@ function CalanderContainer() {
         style={{
           display: "flex",
           justifyContent: "center",
+          fontSize: "1rem",
         }}
       >
         <table
           style={{
-            width: "80%",
-            height: "calc(80% / 7 * 5)",
+            width: "50vh",
+            height: "calc(50vh / 7 * 5)",
           }}
         >
           <tr style={weekRowStyle}>
