@@ -4,6 +4,7 @@ function AccountContainer() {
       style={{
         backgroundColor: "white",
         height: "500px",
+        padding: "50px 20px",
       }}
     >
       Account

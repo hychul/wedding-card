@@ -4,6 +4,7 @@ function AlbumContainer() {
       style={{
         backgroundColor: "white",
         height: "500px",
+        padding: "50px 20px",
       }}
     >
       Album

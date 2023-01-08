@@ -26,9 +26,9 @@ function CalanderContainer() {
         flexDirection: "column",
         justifyContent: "center",
         gap: "30px",
-        backgroundColor: "white",
+        padding: "50px 0px",
         width: "100%",
-        padding: "50px 20px",
+        backgroundColor: "white",
       }}
     >
       <div
@@ -47,8 +47,8 @@ function CalanderContainer() {
       >
         <table
           style={{
-            width: "80vw",
-            height: "calc(80vw/7 * 5",
+            width: "80%",
+            height: "calc(80% / 7 * 5)",
           }}
         >
           <tr style={weekRowStyle}>

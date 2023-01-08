@@ -8,6 +8,7 @@ function MapContainer() {
         flexDirection: "column",
         justifyContent: "center",
         gap: "30px",
+        padding: "50px 0px",
         width: "100%",
         backgroundColor: "white",
       }}

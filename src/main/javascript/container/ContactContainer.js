@@ -5,9 +5,9 @@ function ContactContainer() {
         display: "flex",
         flexDirection: "column",
         gap: "30px",
-        backgroundColor: "white",
+        padding: "50px 0px",
         width: "100%",
-        padding: "50px 20px",
+        backgroundColor: "white",
       }}
     >
       <div
