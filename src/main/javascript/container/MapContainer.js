@@ -108,7 +108,7 @@ function MapContainer() {
           }}
         >
           <div style={{ fontWeight: "bold" }}>
-            버스 - 합정역 / 우리은행서교동지정 / 서교동교회 하차
+            버스 - 합정역 / 우리은행 서교동지점 / 서교동교회 하차
           </div>
           <table></table>
           <div>파랑(간선) 271A, 921, 602, 603, 604, 761</div>
@@ -145,9 +145,7 @@ function MapContainer() {
           <div
             style={{ display: "flex", flexDirection: "row", gap: "0.25rem" }}
           >
-            <div style={{ fontWeight: "bold" }}>
-              제3주차장 : 서교빌딩 주차장
-            </div>
+            <div style={{ fontWeight: "bold" }}>제3주차장</div>
             <div>서교빌딩 주차장</div>
           </div>
         </div>
