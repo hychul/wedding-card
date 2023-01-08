@@ -47,15 +47,41 @@ function MapContainer() {
           <div>02-335-5400</div>
         </div>
       </div>
-      <NaverMap
-        latLng={{ angle: 37.55279211074744, meter: 126.91719906074228 }}
-      />
-      <div></div>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
+        }}
+      >
+        <NaverMap
+          latLng={{ angle: 37.55279211074744, meter: 126.91719906074228 }}
+        />
+        <a
+          href="https://map.naver.com/v5/search/%EC%9B%A8%EB%94%A9%20%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98/place/1542904899?c=14127905.7250301,4516411.5387226,15,0,0,0,dh&placePath=%3Fentry%253Dbmp"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "60px",
+            border: "0px",
+            backgroundColor: "pink",
+            textDecoration: "none",
+          }}
+        >
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.1rem",
+            }}
+          >
+            지도를 자세히 보려면 여기를 눌러주세요
+          </div>
+        </a>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
           gap: "20px",
           width: "100%",
         }}
