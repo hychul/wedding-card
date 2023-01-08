@@ -15,7 +15,7 @@ function InvitationContainer() {
           width: "100%",
           textAlign: "center",
           color: "pink",
-          fontSize: "1.25em",
+          fontSize: "1.25rem",
         }}
       >
         Invitation

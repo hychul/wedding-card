@@ -16,7 +16,7 @@ function MainContainer() {
           width: "100%",
           textAlign: "center",
           color: "white",
-          fontSize: "1.25em",
+          fontSize: "1.25rem",
         }}
       >
         <div>조형철</div>
