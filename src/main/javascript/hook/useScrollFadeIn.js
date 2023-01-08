@@ -50,7 +50,7 @@ const useScrollFadeIn = (
     }
 
     return () => observer && observer.disconnect();
-  }, [handleScroll]);
+  }, [threshold, handleScroll]);
 
   return {
     ref: element,
