@@ -8,8 +8,6 @@ import AccountContainer from "main/javascript/container/AccountContainer";
 import useScrollFadeIn from "main/javascript/hook/useScrollFadeIn";
 
 function WeddingCardPage() {
-  //   const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {};
-
   return (
     <div
       style={{
