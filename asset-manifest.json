@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wedding-invitation/static/css/main.073c9b0a.css",
-    "main.js": "/wedding-invitation/static/js/main.20a79c4e.js",
-    "static/js/787.9b74c651.chunk.js": "/wedding-invitation/static/js/787.9b74c651.chunk.js",
-    "static/media/logo.svg": "/wedding-invitation/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/wedding-invitation/index.html",
-    "main.073c9b0a.css.map": "/wedding-invitation/static/css/main.073c9b0a.css.map",
-    "main.20a79c4e.js.map": "/wedding-invitation/static/js/main.20a79c4e.js.map",
-    "787.9b74c651.chunk.js.map": "/wedding-invitation/static/js/787.9b74c651.chunk.js.map"
+    "main.css": "/wedding-card/static/css/main.073c9b0a.css",
+    "main.js": "/wedding-card/static/js/main.f8514163.js",
+    "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
+    "static/media/logo.svg": "/wedding-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/wedding-card/index.html",
+    "main.073c9b0a.css.map": "/wedding-card/static/css/main.073c9b0a.css.map",
+    "main.f8514163.js.map": "/wedding-card/static/js/main.f8514163.js.map",
+    "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.20a79c4e.js"
+    "static/js/main.f8514163.js"
   ]
 }
