@@ -1,6 +1,6 @@
 {
-  "name": "wedding-invitation",
-  "homepage": "https://hychul.github.io/wedding-invitation/",
+  "name": "wedding-card",
+  "homepage": "https://hychul.github.io/wedding-card/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

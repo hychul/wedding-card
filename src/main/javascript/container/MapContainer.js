@@ -54,7 +54,10 @@ function MapContainer() {
         }}
       >
         <NaverMap
-          latLng={{ angle: 37.55279211074744, meter: 126.91719906074228 }}
+          latLng={{
+            latitude: 37.55256011074744,
+            longitude: 126.91732906074228,
+          }}
         />
         <a
           href="https://map.naver.com/v5/search/%EC%9B%A8%EB%94%A9%20%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98/place/1542904899?c=14127905.7250301,4516411.5387226,15,0,0,0,dh&placePath=%3Fentry%253Dbmp"

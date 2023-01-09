@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/wedding-invitation" element={<WeddingCardPage />} />
+        <Route path="/wedding-card" element={<WeddingCardPage />} />
         <Route path="/react" element={<ReactPage />} />
       </Routes>
     </BrowserRouter>
