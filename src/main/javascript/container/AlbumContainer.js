@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect } from "react";
-
-const TOTAL_SLIDES = 3;
+import useCarousel from "main/javascript/hook/useCarousel";
 
 function AlbumContainer() {
+  const { ref, prev, next } = useCarousel();
+
   return (
     <div
       style={{
@@ -40,8 +40,8 @@ function AlbumContainer() {
       <div
         style={{
           display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
+          flexDirection: "row",
+          justifyContent: "left",
           alignItems: "center",
           width: "100vw",
           height: "100vw",
@@ -49,8 +49,57 @@ function AlbumContainer() {
           backgroundColor: "greenyellow",
         }}
       >
-        Viewport
+        <div
+          ref={ref}
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            overflow: "visible",
+            width: "400vw",
+            height: "100vw",
+          }}
+        >
+          <div
+            style={{
+              width: "100vw",
+              height: "100vw",
+              backgroundColor: "pink",
+            }}
+          >
+            0
+          </div>
+          <div
+            style={{
+              width: "100vw",
+              height: "100vw",
+              backgroundColor: "red",
+            }}
+          >
+            1
+          </div>
+          <div
+            style={{
+              width: "100vw",
+              height: "100vw",
+              backgroundColor: "green",
+            }}
+          >
+            2
+          </div>
+          <div
+            style={{
+              width: "100vw",
+              height: "100vw",
+              backgroundColor: "blue",
+            }}
+          >
+            3
+          </div>
+        </div>
       </div>
+      <button onClick={prev}>prev</button>
+      <button onClick={next}>next</button>
+      {/* <button onClick={}>prev</button> */}
       {/* Heart and comment */}
       {/* Description */}
     </div>
