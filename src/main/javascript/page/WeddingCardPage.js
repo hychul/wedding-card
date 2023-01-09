@@ -5,7 +5,7 @@ import CalanderContainer from "main/javascript/container/CalanderContainer";
 import AlbumContainer from "main/javascript/container/AlbumContainer";
 import MapContainer from "main/javascript/container/MapContainer";
 import AccountContainer from "main/javascript/container/AccountContainer";
-import useScrollFadeIn from "../hook/useScrollFadeIn";
+import useScrollFadeIn from "main/javascript/hook/useScrollFadeIn";
 
 function WeddingCardPage() {
   //   const useScrollFadeIn = (direction = "up", duration = 1, delay = 0) => {};
