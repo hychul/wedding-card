@@ -46,7 +46,6 @@ function AlbumContainer() {
           width: "100vw",
           height: "100vw",
           overflow: "hidden",
-          backgroundColor: "greenyellow",
         }}
       >
         <div
