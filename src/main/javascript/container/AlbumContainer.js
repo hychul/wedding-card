@@ -1,7 +1,7 @@
 import useCarousel from "main/javascript/hook/useCarousel";
 
 function AlbumContainer() {
-  const { ref, prev, next } = useCarousel();
+  const { ref, prev, next, current, setCurrent } = useCarousel();
 
   return (
     <div
@@ -98,6 +98,35 @@ function AlbumContainer() {
       </div>
       <button onClick={prev}>prev</button>
       <button onClick={next}>next</button>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+          }}
+        >
+          {[...Array(4).keys()].map((num) => (
+            <div
+              style={{
+                width: "10px",
+                height: "10px",
+                borderRadius: "15px",
+                background: num === current ? "#999" : "#E0E0E0",
+                margin: "3px",
+                cursor: "pointer",
+              }}
+              onClick={() => setCurrent(num)}
+              id={num}
+              key={num}
+            />
+          ))}
+        </div>
+      </div>
       {/* <button onClick={}>prev</button> */}
       {/* Heart and comment */}
       {/* Description */}
