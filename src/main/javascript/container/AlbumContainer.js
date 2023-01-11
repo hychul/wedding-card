@@ -163,7 +163,6 @@ function AlbumContainer() {
           ))}
         </div>
       </div>
-      {/* <button onClick={}>prev</button> */}
       {/* Heart and comment */}
       {/* Description */}
     </div>
