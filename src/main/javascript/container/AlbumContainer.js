@@ -139,29 +139,26 @@ function AlbumContainer() {
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
+          alignItems: "center",
+          width: "100%",
+          height: "30px",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-          }}
-        >
-          {[...Array(4).keys()].map((num) => (
-            <div
-              style={{
-                width: "10px",
-                height: "10px",
-                borderRadius: "15px",
-                background: num === current ? "#999" : "#E0E0E0",
-                margin: "3px",
-                cursor: "pointer",
-              }}
-              onClick={() => setCurrent(num)}
-              id={num}
-              key={num}
-            />
-          ))}
-        </div>
+        {[...Array(4).keys()].map((num) => (
+          <div
+            style={{
+              width: num === current ? "10px" : "7px",
+              height: num === current ? "10px" : "7px",
+              borderRadius: "15px",
+              background: num === current ? "#999" : "#E0E0E0",
+              margin: "3px",
+              cursor: "pointer",
+            }}
+            onClick={() => setCurrent(num)}
+            id={num}
+            key={num}
+          />
+        ))}
       </div>
       {/* Heart and comment */}
       {/* Description */}
