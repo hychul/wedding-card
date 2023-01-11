@@ -39,6 +39,7 @@ function AlbumContainer() {
       </div>
       <div
         style={{
+          position: "relative",
           display: "flex",
           flexDirection: "row",
           justifyContent: "left",
@@ -49,55 +50,90 @@ function AlbumContainer() {
         }}
       >
         <div
-          ref={ref}
           style={{
+            position: "absolute",
+            top: "0",
+            left: "0",
             display: "flex",
             flexDirection: "row",
-            overflow: "visible",
-            width: "400vw",
+            justifyContent: "left",
+            alignItems: "center",
+            width: "100vw",
             height: "100vw",
+            overflow: "hidden",
           }}
         >
           <div
+            ref={ref}
             style={{
-              width: "100vw",
+              display: "flex",
+              flexDirection: "row",
+              overflow: "visible",
+              width: "400vw",
               height: "100vw",
-              backgroundColor: "pink",
             }}
           >
-            0
-          </div>
-          <div
-            style={{
-              width: "100vw",
-              height: "100vw",
-              backgroundColor: "red",
-            }}
-          >
-            1
-          </div>
-          <div
-            style={{
-              width: "100vw",
-              height: "100vw",
-              backgroundColor: "green",
-            }}
-          >
-            2
-          </div>
-          <div
-            style={{
-              width: "100vw",
-              height: "100vw",
-              backgroundColor: "blue",
-            }}
-          >
-            3
+            <div
+              style={{
+                width: "100vw",
+                height: "100vw",
+                backgroundColor: "pink",
+              }}
+            >
+              0
+            </div>
+            <div
+              style={{
+                width: "100vw",
+                height: "100vw",
+                backgroundColor: "red",
+              }}
+            >
+              1
+            </div>
+            <div
+              style={{
+                width: "100vw",
+                height: "100vw",
+                backgroundColor: "green",
+              }}
+            >
+              2
+            </div>
+            <div
+              style={{
+                width: "100vw",
+                height: "100vw",
+                backgroundColor: "blue",
+              }}
+            >
+              3
+            </div>
           </div>
         </div>
+        {current > 0 && (
+          <button
+            style={{
+              position: "absolute",
+              left: "0",
+            }}
+            onClick={prev}
+          >
+            prev
+          </button>
+        )}
+        {current < 3 && (
+          <button
+            style={{
+              position: "absolute",
+              right: "0",
+            }}
+            onClick={next}
+          >
+            next
+          </button>
+        )}
       </div>
-      <button onClick={prev}>prev</button>
-      <button onClick={next}>next</button>
       <div
         style={{
           display: "flex",
