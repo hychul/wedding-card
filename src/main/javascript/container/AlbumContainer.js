@@ -1,4 +1,5 @@
 import useCarousel from "main/javascript/hook/useCarousel";
+import arrow from "main/resource/arrow.svg";
 import img01 from "main/resource/image/d_01.jpeg";
 import img02 from "main/resource/image/d_02.jpeg";
 import img03 from "main/resource/image/d_03.jpeg";
@@ -172,22 +173,33 @@ function AlbumContainer() {
           <button
             style={{
               position: "absolute",
-              left: "0",
+              borderWidth: "0px",
+              left: "10px",
+              padding: "0px",
+              width: "40px",
+              height: "40px",
+              backgroundColor: "transparent",
+              transform: "rotate(180deg)",
             }}
             onClick={prev}
           >
-            prev
+            <img style={{ width: "100%", height: "100%" }} src={arrow}></img>
           </button>
         )}
         {current < imageCount && (
           <button
             style={{
               position: "absolute",
-              right: "0",
+              borderWidth: "0px",
+              right: "10px",
+              padding: "0px",
+              width: "40px",
+              height: "40px",
+              backgroundColor: "transparent",
             }}
             onClick={next}
           >
-            next
+            <img style={{ width: "100%", height: "100%" }} src={arrow}></img>
           </button>
         )}
       </div>
