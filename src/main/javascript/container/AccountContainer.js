@@ -55,7 +55,7 @@ function AccountContainer() {
                 }}
               >
                 <div>
-                  하나은행 19081 1164 75107
+                  하나은행 190-811164-75-107
                   <br />
                   조재하
                 </div>
@@ -71,7 +71,7 @@ function AccountContainer() {
                 }}
               >
                 <div>
-                  농협은행 688 01 008368
+                  농협은행 688-01-008368
                   <br />
                   김경순
                 </div>
@@ -86,7 +86,7 @@ function AccountContainer() {
                 }}
               >
                 <div>
-                  XX은행 XXXXXXXX
+                  하나은행 190-910310-11-207
                   <br />
                   조형철
                 </div>
@@ -142,7 +142,7 @@ function AccountContainer() {
                 }}
               >
                 <div>
-                  XX은행 XXXXXXXX
+                  신한은행 110-546-785172
                   <br />
                   채유진
                 </div>
