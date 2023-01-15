@@ -77,7 +77,7 @@ function AlbumContainer() {
               style={{
                 width: "100vw",
                 height: "100vw",
-                backgroundColor: "pink",
+                backgroundColor: "#fab9c3",
               }}
             >
               0

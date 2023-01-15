@@ -23,7 +23,7 @@ function MapContainer() {
       >
         <div
           style={{
-            color: "pink",
+            color: "#fab9c3",
             fontSize: "1.25rem",
           }}
         >
@@ -67,7 +67,7 @@ function MapContainer() {
             alignItems: "center",
             height: "60px",
             border: "0px",
-            backgroundColor: "pink",
+            backgroundColor: "#fab9c3",
             textDecoration: "none",
           }}
         >

@@ -12,7 +12,7 @@ function CalanderContainer() {
     verticalAlign: "middle",
   };
   const dDayStyle = {
-    backgroundColor: "pink",
+    backgroundColor: "#fab9c3",
     borderRadius: "0.5rem",
     textAlign: "center",
     verticalAlign: "middle",

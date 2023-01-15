@@ -23,7 +23,7 @@ function AccountContainer() {
       >
         <div
           style={{
-            color: "pink",
+            color: "#fab9c3",
             fontSize: "1.25rem",
           }}
         >

@@ -7,6 +7,8 @@ function ContactContainer() {
       style={{
         display: "flex",
         flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
         gap: "30px",
         padding: "50px 0px",
         width: "100%",
@@ -117,6 +119,22 @@ function ContactContainer() {
           </a>
         </div>
       </div>
+      <button
+        style={{
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderRadius: "15px",
+          borderColor: "#fab9c3",
+          padding: "10px",
+          width: "18rem",
+          height: "calc(25px + 20px)",
+          fontSize: "1.1rem",
+          color: "#fab9c3",
+          backgroundColor: "transparent",
+        }}
+      >
+        혼주에게 연락하기
+      </button>
     </div>
   );
 }

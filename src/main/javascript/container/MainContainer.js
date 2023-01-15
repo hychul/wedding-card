@@ -4,7 +4,7 @@ function MainContainer() {
       style={{
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "pink",
+        backgroundColor: "#fab9c3",
         padding: "50px 0px",
         width: "100%",
         height: "500px",
