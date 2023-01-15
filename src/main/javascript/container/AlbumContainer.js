@@ -71,6 +71,18 @@ function AlbumContainer() {
     >
       <div
         style={{
+          marginBottom: "30px",
+          width: "100%",
+          textAlign: "center",
+          color: "#fab9c3",
+          fontSize: "1.5rem",
+          fontFamily: "sungsil",
+        }}
+      >
+        앨범
+      </div>
+      <div
+        style={{
           position: "relative",
           display: "flex",
           flexDirection: "row",

@@ -13,6 +13,7 @@ function MainContainer() {
         width: "100vw",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        fontFamily: "sungsil",
       }}
     >
       <div
@@ -20,8 +21,9 @@ function MainContainer() {
           borderRadius: "5px",
           padding: "5px",
           backgroundColor: "white",
-          fontSize: "1.2rem",
+          fontSize: "1.5rem",
           textAlign: "center",
+          letterSpacing: "2px",
           color: "black",
         }}
       >
@@ -39,8 +41,9 @@ function MainContainer() {
         style={{
           borderRadius: "5px",
           backgroundColor: "white",
-          fontSize: "0.9rem",
+          fontSize: "1.1rem",
           textAlign: "center",
+          letterSpacing: "2px",
           color: "black",
         }}
       >

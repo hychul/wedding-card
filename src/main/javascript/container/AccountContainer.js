@@ -23,8 +23,11 @@ function AccountContainer() {
       >
         <div
           style={{
+            width: "100%",
+            textAlign: "center",
             color: "#fab9c3",
-            fontSize: "1.25rem",
+            fontSize: "1.5rem",
+            fontFamily: "sungsil",
           }}
         >
           마음을 전하는 곳

@@ -8,6 +8,7 @@ function InvitationContainer() {
         padding: "50px 0px",
         width: "100%",
         backgroundColor: "white",
+        fontFamily: "sungsil",
       }}
     >
       <div
@@ -15,10 +16,10 @@ function InvitationContainer() {
           width: "100%",
           textAlign: "center",
           color: "#fab9c3",
-          fontSize: "1.25rem",
+          fontSize: "1.5rem",
         }}
       >
-        Invitation
+        모시는 글
       </div>
       <div
         style={{
@@ -27,6 +28,8 @@ function InvitationContainer() {
           gap: "10px",
           width: "100%",
           textAlign: "center",
+          fontSize: "1.1rem",
+          letterSpacing: "1px",
           color: "black",
         }}
       >

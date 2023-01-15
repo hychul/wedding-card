@@ -23,8 +23,12 @@ function MapContainer() {
       >
         <div
           style={{
+            marginBottom: "30px",
+            width: "100%",
+            textAlign: "center",
             color: "#fab9c3",
-            fontSize: "1.25rem",
+            fontSize: "1.5rem",
+            fontFamily: "sungsil",
           }}
         >
           오시는 길

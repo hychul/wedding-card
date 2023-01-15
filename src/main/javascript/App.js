@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WeddingCardPage from "main/javascript/page/WeddingCardPage";
 import ReactPage from "main/javascript/page/ReactPage";
+import font from "main/resource/font/font.css";
 
 function App() {
   return (
