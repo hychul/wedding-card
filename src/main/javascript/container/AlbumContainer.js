@@ -1,7 +1,64 @@
 import useCarousel from "main/javascript/hook/useCarousel";
+import img01 from "main/resource/d_01.JPG";
+import img02 from "main/resource/d_02.JPG";
+import img03 from "main/resource/d_03.JPG";
+import img04 from "main/resource/d_04.JPG";
+import img05 from "main/resource/d_05.JPG";
+import img06 from "main/resource/d_06.JPG";
+import img07 from "main/resource/d_07.JPG";
+import img08 from "main/resource/d_08.JPG";
+import img09 from "main/resource/d_09.JPG";
+import img10 from "main/resource/d_10.JPG";
+import img11 from "main/resource/d_11.JPG";
+import img12 from "main/resource/d_12.JPG";
+import img13 from "main/resource/d_13.JPG";
+import img14 from "main/resource/d_14.JPG";
+import img15 from "main/resource/d_15.JPG";
+import img16 from "main/resource/d_16.JPG";
+import img17 from "main/resource/d_17.JPG";
+import img18 from "main/resource/d_18.JPG";
+import img19 from "main/resource/d_19.JPG";
+import img20 from "main/resource/d_20.JPG";
+import img21 from "main/resource/d_21.JPG";
+import img22 from "main/resource/d_22.JPG";
+import img23 from "main/resource/d_23.JPG";
+import img24 from "main/resource/d_24.JPG";
+import img25 from "main/resource/d_25.JPG";
+import img26 from "main/resource/d_26.JPG";
+import img27 from "main/resource/d_27.JPG";
+import img28 from "main/resource/d_28.JPG";
+import img29 from "main/resource/d_29.JPG";
+import img30 from "main/resource/d_30.JPG";
+import img31 from "main/resource/d_31.JPG";
+import img32 from "main/resource/d_32.JPG";
+import img33 from "main/resource/d_33.JPG";
+import img34 from "main/resource/n_01.JPG";
+import img35 from "main/resource/n_02.JPG";
+import img36 from "main/resource/n_03.JPG";
+import img37 from "main/resource/n_04.JPG";
+import img38 from "main/resource/n_05.JPG";
+import img39 from "main/resource/n_06.JPG";
+import img40 from "main/resource/n_07.JPG";
+import img41 from "main/resource/n_08.JPG";
+import img42 from "main/resource/n_09.JPG";
+import img43 from "main/resource/n_10.JPG";
+import img44 from "main/resource/n_11.JPG";
+import img45 from "main/resource/n_12.JPG";
+import img46 from "main/resource/n_13.JPG";
+import img47 from "main/resource/n_14.JPG";
+import img48 from "main/resource/n_15.JPG";
+import img49 from "main/resource/n_16.JPG";
 
 function AlbumContainer() {
   const { ref, prev, next, current, setCurrent } = useCarousel();
+
+  const imageCount = 49;
+
+  const imageStyle = {
+    width: "100vw",
+    height: "100vw",
+    objectFit: "contain",
+  };
 
   return (
     <div
@@ -12,30 +69,6 @@ function AlbumContainer() {
         padding: "50px 0px",
       }}
     >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "cetner",
-          width: "100vw",
-          height: "15vw",
-          borderTop: "solid 1px #FBFBFB",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-            padding: "0px 10px",
-            width: "calc(100% - 20px)",
-          }}
-        >
-          <div>유진n형철</div>
-          <div>···</div>
-        </div>
-      </div>
       <div
         style={{
           position: "relative",
@@ -68,46 +101,59 @@ function AlbumContainer() {
               display: "flex",
               flexDirection: "row",
               overflow: "visible",
-              width: "400vw",
+              width: `${imageCount}00vw`,
               height: "100vw",
             }}
           >
-            <div
-              style={{
-                width: "100vw",
-                height: "100vw",
-                backgroundColor: "#fab9c3",
-              }}
-            >
-              0
-            </div>
-            <div
-              style={{
-                width: "100vw",
-                height: "100vw",
-                backgroundColor: "red",
-              }}
-            >
-              1
-            </div>
-            <div
-              style={{
-                width: "100vw",
-                height: "100vw",
-                backgroundColor: "green",
-              }}
-            >
-              2
-            </div>
-            <div
-              style={{
-                width: "100vw",
-                height: "100vw",
-                backgroundColor: "blue",
-              }}
-            >
-              3
-            </div>
+            <img style={imageStyle} src={img01}></img>
+            <img style={imageStyle} src={img02}></img>
+            <img style={imageStyle} src={img03}></img>
+            <img style={imageStyle} src={img04}></img>
+            <img style={imageStyle} src={img05}></img>
+            <img style={imageStyle} src={img06}></img>
+            <img style={imageStyle} src={img07}></img>
+            <img style={imageStyle} src={img08}></img>
+            <img style={imageStyle} src={img09}></img>
+            <img style={imageStyle} src={img10}></img>
+            <img style={imageStyle} src={img11}></img>
+            <img style={imageStyle} src={img12}></img>
+            <img style={imageStyle} src={img13}></img>
+            <img style={imageStyle} src={img14}></img>
+            <img style={imageStyle} src={img15}></img>
+            <img style={imageStyle} src={img16}></img>
+            <img style={imageStyle} src={img17}></img>
+            <img style={imageStyle} src={img18}></img>
+            <img style={imageStyle} src={img19}></img>
+            <img style={imageStyle} src={img20}></img>
+            <img style={imageStyle} src={img21}></img>
+            <img style={imageStyle} src={img22}></img>
+            <img style={imageStyle} src={img23}></img>
+            <img style={imageStyle} src={img24}></img>
+            <img style={imageStyle} src={img25}></img>
+            <img style={imageStyle} src={img26}></img>
+            <img style={imageStyle} src={img27}></img>
+            <img style={imageStyle} src={img28}></img>
+            <img style={imageStyle} src={img29}></img>
+            <img style={imageStyle} src={img30}></img>
+            <img style={imageStyle} src={img31}></img>
+            <img style={imageStyle} src={img32}></img>
+            <img style={imageStyle} src={img33}></img>
+            <img style={imageStyle} src={img34}></img>
+            <img style={imageStyle} src={img35}></img>
+            <img style={imageStyle} src={img36}></img>
+            <img style={imageStyle} src={img37}></img>
+            <img style={imageStyle} src={img38}></img>
+            <img style={imageStyle} src={img39}></img>
+            <img style={imageStyle} src={img40}></img>
+            <img style={imageStyle} src={img41}></img>
+            <img style={imageStyle} src={img42}></img>
+            <img style={imageStyle} src={img43}></img>
+            <img style={imageStyle} src={img44}></img>
+            <img style={imageStyle} src={img45}></img>
+            <img style={imageStyle} src={img46}></img>
+            <img style={imageStyle} src={img47}></img>
+            <img style={imageStyle} src={img48}></img>
+            <img style={imageStyle} src={img49}></img>
           </div>
         </div>
         {current > 0 && (
@@ -121,7 +167,7 @@ function AlbumContainer() {
             prev
           </button>
         )}
-        {current < 3 && (
+        {current < imageCount && (
           <button
             style={{
               position: "absolute",
@@ -143,7 +189,7 @@ function AlbumContainer() {
           height: "30px",
         }}
       >
-        {[...Array(4).keys()].map((num) => (
+        {[...Array(imageCount).keys()].map((num) => (
           <div
             style={{
               width: num === current ? "10px" : "7px",
@@ -159,8 +205,6 @@ function AlbumContainer() {
           />
         ))}
       </div>
-      {/* Heart and comment */}
-      {/* Description */}
     </div>
   );
 }

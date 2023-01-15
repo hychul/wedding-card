@@ -32,7 +32,7 @@ const useCarousel = (duration = 0.2, delay = 0) => {
 
   useEffect(() => {
     let innerElements = element.current.innerHTML;
-    let count = (innerElements.match(/<div/g) || []).length;
+    let count = (innerElements.match(/<img/g) || []).length;
     setMaxCount(count);
   }, []);
 
