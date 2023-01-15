@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.858cb433.css",
-    "main.js": "/wedding-card/static/js/main.18b1f981.js",
+    "main.js": "/wedding-card/static/js/main.4fd00990.js",
     "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
     "static/media/nanum_sungsil.ttf": "/wedding-card/static/media/nanum_sungsil.2b74074bed920937ac2b.ttf",
     "static/media/main.jpeg": "/wedding-card/static/media/main.a0e1e5bcce01cb37a1b1.jpeg",
@@ -56,14 +56,15 @@
     "static/media/n_16.jpeg": "/wedding-card/static/media/n_16.18a8eca92cd10f72523b.jpeg",
     "static/media/logo.svg": "/wedding-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/wedding-card/index.html",
+    "static/media/arrow.svg": "/wedding-card/static/media/arrow.57075af9dbfa735925fcb199dafe1d15.svg",
     "static/media/sms.svg": "/wedding-card/static/media/sms.5a6fa09ebac25e79e217b025243362b8.svg",
     "static/media/call.svg": "/wedding-card/static/media/call.ac3e80b2ecf1691a6f3c2065d130eb49.svg",
     "main.858cb433.css.map": "/wedding-card/static/css/main.858cb433.css.map",
-    "main.18b1f981.js.map": "/wedding-card/static/js/main.18b1f981.js.map",
+    "main.4fd00990.js.map": "/wedding-card/static/js/main.4fd00990.js.map",
     "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.858cb433.css",
-    "static/js/main.18b1f981.js"
+    "static/js/main.4fd00990.js"
   ]
 }
