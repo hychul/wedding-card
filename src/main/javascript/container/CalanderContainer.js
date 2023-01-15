@@ -21,7 +21,7 @@ function CalanderContainer() {
   };
 
   useEffect(() => {
-    const weddingDate = new Date("2023-03-18");
+    const weddingDate = new Date("2023-03-18 00:00:00");
     const todayDate = new Date();
     const diff = weddingDate - todayDate;
     const diffDay = Math.floor(diff / (1000 * 60 * 60 * 24));
