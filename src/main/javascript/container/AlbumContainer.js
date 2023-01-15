@@ -105,55 +105,55 @@ function AlbumContainer() {
               height: "100vw",
             }}
           >
-            <img style={imageStyle} src={img01}></img>
-            <img style={imageStyle} src={img02}></img>
-            <img style={imageStyle} src={img03}></img>
-            <img style={imageStyle} src={img04}></img>
-            <img style={imageStyle} src={img05}></img>
-            <img style={imageStyle} src={img06}></img>
-            <img style={imageStyle} src={img07}></img>
-            <img style={imageStyle} src={img08}></img>
-            <img style={imageStyle} src={img09}></img>
-            <img style={imageStyle} src={img10}></img>
-            <img style={imageStyle} src={img11}></img>
-            <img style={imageStyle} src={img12}></img>
-            <img style={imageStyle} src={img13}></img>
-            <img style={imageStyle} src={img14}></img>
-            <img style={imageStyle} src={img15}></img>
-            <img style={imageStyle} src={img16}></img>
-            <img style={imageStyle} src={img17}></img>
-            <img style={imageStyle} src={img18}></img>
-            <img style={imageStyle} src={img19}></img>
-            <img style={imageStyle} src={img20}></img>
-            <img style={imageStyle} src={img21}></img>
-            <img style={imageStyle} src={img22}></img>
-            <img style={imageStyle} src={img23}></img>
-            <img style={imageStyle} src={img24}></img>
-            <img style={imageStyle} src={img25}></img>
-            <img style={imageStyle} src={img26}></img>
-            <img style={imageStyle} src={img27}></img>
-            <img style={imageStyle} src={img28}></img>
-            <img style={imageStyle} src={img29}></img>
-            <img style={imageStyle} src={img30}></img>
-            <img style={imageStyle} src={img31}></img>
-            <img style={imageStyle} src={img32}></img>
-            <img style={imageStyle} src={img33}></img>
-            <img style={imageStyle} src={img34}></img>
-            <img style={imageStyle} src={img35}></img>
-            <img style={imageStyle} src={img36}></img>
-            <img style={imageStyle} src={img37}></img>
-            <img style={imageStyle} src={img38}></img>
-            <img style={imageStyle} src={img39}></img>
-            <img style={imageStyle} src={img40}></img>
-            <img style={imageStyle} src={img41}></img>
-            <img style={imageStyle} src={img42}></img>
-            <img style={imageStyle} src={img43}></img>
-            <img style={imageStyle} src={img44}></img>
-            <img style={imageStyle} src={img45}></img>
-            <img style={imageStyle} src={img46}></img>
-            <img style={imageStyle} src={img47}></img>
-            <img style={imageStyle} src={img48}></img>
-            <img style={imageStyle} src={img49}></img>
+            <img style={imageStyle} loading="lazy" src={img01}></img>
+            <img style={imageStyle} loading="lazy" src={img02}></img>
+            <img style={imageStyle} loading="lazy" src={img03}></img>
+            <img style={imageStyle} loading="lazy" src={img04}></img>
+            <img style={imageStyle} loading="lazy" src={img05}></img>
+            <img style={imageStyle} loading="lazy" src={img06}></img>
+            <img style={imageStyle} loading="lazy" src={img07}></img>
+            <img style={imageStyle} loading="lazy" src={img08}></img>
+            <img style={imageStyle} loading="lazy" src={img09}></img>
+            <img style={imageStyle} loading="lazy" src={img10}></img>
+            <img style={imageStyle} loading="lazy" src={img11}></img>
+            <img style={imageStyle} loading="lazy" src={img12}></img>
+            <img style={imageStyle} loading="lazy" src={img13}></img>
+            <img style={imageStyle} loading="lazy" src={img14}></img>
+            <img style={imageStyle} loading="lazy" src={img15}></img>
+            <img style={imageStyle} loading="lazy" src={img16}></img>
+            <img style={imageStyle} loading="lazy" src={img17}></img>
+            <img style={imageStyle} loading="lazy" src={img18}></img>
+            <img style={imageStyle} loading="lazy" src={img19}></img>
+            <img style={imageStyle} loading="lazy" src={img20}></img>
+            <img style={imageStyle} loading="lazy" src={img21}></img>
+            <img style={imageStyle} loading="lazy" src={img22}></img>
+            <img style={imageStyle} loading="lazy" src={img23}></img>
+            <img style={imageStyle} loading="lazy" src={img24}></img>
+            <img style={imageStyle} loading="lazy" src={img25}></img>
+            <img style={imageStyle} loading="lazy" src={img26}></img>
+            <img style={imageStyle} loading="lazy" src={img27}></img>
+            <img style={imageStyle} loading="lazy" src={img28}></img>
+            <img style={imageStyle} loading="lazy" src={img29}></img>
+            <img style={imageStyle} loading="lazy" src={img30}></img>
+            <img style={imageStyle} loading="lazy" src={img31}></img>
+            <img style={imageStyle} loading="lazy" src={img32}></img>
+            <img style={imageStyle} loading="lazy" src={img33}></img>
+            <img style={imageStyle} loading="lazy" src={img34}></img>
+            <img style={imageStyle} loading="lazy" src={img35}></img>
+            <img style={imageStyle} loading="lazy" src={img36}></img>
+            <img style={imageStyle} loading="lazy" src={img37}></img>
+            <img style={imageStyle} loading="lazy" src={img38}></img>
+            <img style={imageStyle} loading="lazy" src={img39}></img>
+            <img style={imageStyle} loading="lazy" src={img40}></img>
+            <img style={imageStyle} loading="lazy" src={img41}></img>
+            <img style={imageStyle} loading="lazy" src={img42}></img>
+            <img style={imageStyle} loading="lazy" src={img43}></img>
+            <img style={imageStyle} loading="lazy" src={img44}></img>
+            <img style={imageStyle} loading="lazy" src={img45}></img>
+            <img style={imageStyle} loading="lazy" src={img46}></img>
+            <img style={imageStyle} loading="lazy" src={img47}></img>
+            <img style={imageStyle} loading="lazy" src={img48}></img>
+            <img style={imageStyle} loading="lazy" src={img49}></img>
           </div>
         </div>
         {current > 0 && (

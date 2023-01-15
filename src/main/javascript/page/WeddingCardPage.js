@@ -31,7 +31,7 @@ function WeddingCardPage() {
       <div {...useScrollFadeIn()}>
         <AlbumContainer />
       </div>
-      <div {...useScrollFadeIn()}>
+      <div {...useScrollFadeIn(0)}>
         <MapContainer />
       </div>
       <div {...useScrollFadeIn()}>
