@@ -105,7 +105,7 @@ function MapContainer() {
               display: "flex",
               flexDirection: "column",
               gap: "5px",
-              width: "90%",
+              width: "100%",
             }}
           >
             <div style={{ fontWeight: "bold" }}>지하철</div>
@@ -117,7 +117,7 @@ function MapContainer() {
               display: "flex",
               flexDirection: "column",
               gap: "5px",
-              width: "90%",
+              width: "100%",
             }}
           >
             <div style={{ fontWeight: "bold" }}>
@@ -140,7 +140,7 @@ function MapContainer() {
               display: "flex",
               flexDirection: "column",
               gap: "5px",
-              width: "90%",
+              width: "100%",
             }}
           >
             <div
