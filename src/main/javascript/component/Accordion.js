@@ -51,6 +51,14 @@ function Accordion({ summary, children }) {
           justify-content: space-between;
         }
 
+        details > summary {
+          list-style: none;
+        }
+
+        details summary::-webkit-details-marker {
+          display: none;
+        }
+
         .content-wrapper {
           overflow: hidden;
         }
