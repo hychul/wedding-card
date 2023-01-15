@@ -19,7 +19,7 @@ function ContactModal({ onClose }) {
     gap: "10px",
   };
 
-  const closeModal = (event) => {
+  const closeModal = (_) => {
     onClose?.();
   };
 
