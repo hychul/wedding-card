@@ -186,7 +186,7 @@ function AlbumContainer() {
             <img style={{ width: "100%", height: "100%" }} src={arrow}></img>
           </button>
         )}
-        {current < imageCount && (
+        {current < imageCount - 1 && (
           <button
             style={{
               position: "absolute",
