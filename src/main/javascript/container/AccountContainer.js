@@ -127,7 +127,7 @@ function AccountContainer() {
                 }}
               >
                 <div>
-                  XX은행 XXXXXXXX
+                  기업은행 955-001558-01-010
                   <br />
                   조윤희
                 </div>
