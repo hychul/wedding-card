@@ -8,18 +8,15 @@ function CalanderContainer() {
   };
   const sunDayStyle = {
     textAlign: "center",
-    verticalAlign: "middle",
     color: "red",
   };
   const dateStyle = {
     textAlign: "center",
-    verticalAlign: "middle",
   };
   const dDayStyle = {
     backgroundColor: "#fab9c3",
     borderRadius: "0.5rem",
     textAlign: "center",
-    verticalAlign: "middle",
     color: "white",
   };
 

@@ -1,4 +1,4 @@
-import NaverMap from "main/javascript/component/NaverMap.js";
+import NaverMap from "main/javascript/component/NaverMap";
 
 function MapContainer() {
   return (

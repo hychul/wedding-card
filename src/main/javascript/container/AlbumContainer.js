@@ -17,11 +17,10 @@ function AlbumContainer() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          verticalAlign: "middle",
+          alignItems: "cetner",
           width: "100vw",
           height: "15vw",
           borderTop: "solid 1px #FBFBFB",
-          // backgroundColor: "red",
         }}
       >
         <div

@@ -1,7 +1,11 @@
+import { useState } from "react";
 import call from "main/resource/call.svg";
 import sms from "main/resource/sms.svg";
+import ContactModal from "main/javascript/component/ContactModal";
 
 function ContactContainer() {
+  const [openContactModal, setOpenContactModal] = useState(false);
+
   return (
     <div
       style={{
@@ -132,9 +136,17 @@ function ContactContainer() {
           color: "#fab9c3",
           backgroundColor: "transparent",
         }}
+        onClick={() => {
+          setOpenContactModal(!openContactModal);
+        }}
       >
         혼주에게 연락하기
       </button>
+      {openContactModal && (
+        <ContactModal
+          onClose={() => setOpenContactModal(!openContactModal)}
+        ></ContactModal>
+      )}
     </div>
   );
 }
