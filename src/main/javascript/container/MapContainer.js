@@ -161,6 +161,7 @@ function MapContainer() {
               <div style={{ fontWeight: "bold" }}>제3주차장</div>
               <div>서교빌딩 주차장</div>
             </div>
+            <div>주차 2시간 가능합니다.</div>
           </div>
         </div>
       </div>
