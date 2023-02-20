@@ -110,7 +110,7 @@ function MapContainer() {
           >
             <div style={{ fontWeight: "bold" }}>지하철</div>
             <div>2호선, 6호선 합정역 하차 - 2번 출구 도보 4분</div>
-            <div>홍대입구, 공항철도, 경의선 1번출구 도보 11분</div>
+            <div>홍대입구, 공항철도, 경의선 1번 출구 도보 11분</div>
           </div>
           <div
             style={{
