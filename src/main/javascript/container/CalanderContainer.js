@@ -25,10 +25,10 @@ function CalanderContainer() {
     const todayDate = new Date();
     const diff = weddingDate - todayDate;
     const diffDay = Math.floor(diff / (1000 * 60 * 60 * 24));
-    if (diff > 0) {
+    if (diffDay > 0) {
       setRemainDateText(`형철 ❤️ 유진의 결혼식까지 ${diffDay + 1}일 전`);
-    } else if (diff < 0) {
-      setRemainDateText(`형철 ❤️ 유진 결혼 ${-diffDay + 1}일 째`);
+    } else if (diffDay < 0) {
+      setRemainDateText(`형철 ❤️ 유진 결혼 ${-diffDay}일 째`);
     } else {
       setRemainDateText(`오늘은 형철 ❤️ 유진의 결혼식!`);
     }
